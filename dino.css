@@ -1,0 +1,40 @@
+/* Center align everything */
+body {
+    text-align: center;
+    font-family: 'Courier New', monospace;
+    background-color: #f5deb3;
+    margin: 0;
+    padding: 0;
+}
+
+/* Style for the canvas */
+canvas {
+    border: 2px solid black;
+    display: block;
+    margin: 20px auto;
+    background-color: #fff8dc;
+}
+
+/* Style for instructions */
+.instructions {
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+/* Restart button styling */
+#restart-btn {
+    display: none; /* Hidden by default */
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    font-family: 'Courier New', monospace;
+    background-color: #ffffff;
+    border: 2px solid black;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+#restart-btn:hover {
+    background-color: #ddd;
+}
